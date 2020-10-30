@@ -45,7 +45,7 @@ Since we want to style the inputs that we created for the form but NOT the butto
 
 **Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
-#Day 2: October 28, 2020
+#Day 2: October 29, 2020
 
 
 **Today's Progress**: Today's main draw were fexbox and grid. Created the stats section, CLI section and bottom Cloud and Read more sectio.
@@ -86,6 +86,46 @@ Now this is interesting again. We’re creating another section and a class clou
 Paragraphs are going to a bit bigger using the class lead.
 Now, adding in the button with the anchor tag and also the styling is going to come from the same btn class we used before but we’re going to use the btn-dark and style that.
 Also, we currently had the one DIV and we’re going to be adding in a second DIV as the image so we can take advantage of the two grid spaces we have witch are laid out with 1fr
+
+
+**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+#Day 3: October 30, 2020
+
+
+**Today's Progress**: Today I finished the supported languages and footer sections. Added social media links and media queries for both tabled and mobile.
+
+**Thoughts:**
+
+ADDING SUPPORTED LANGUAGES SECTION
+
+Created a languages section and h2 with the medium class, with text center and we’ll do my-2 for margins. Feels like we’re using Bootstrap but it’s actually thorough and custom CSS. We’re going to use flex for this because we want to align them into a row and each one will be wrapped in a card and h4 and an image underneath. Images/logos.
+CSS that we’re adding .languages .card with text align and margins for top/left side bottom and right side. And adding onto the flex we’re adding flex-wrap and set that to wrap.
+
+Increased h4 size and margin bottom. Also, set the hover attribute to the card elementso that the images would move up a little bit and that’s the transform property on the Y axis and up means a negative value on the axis.
+For the smoother effect we’ll add a transition onto the transform property with the ease in.
+
+FOOTER SECTION
+
+Creating the footer bar starts with a footer tag with a class of bg dark and padding py-5
+Container is going to be grid 3 and we’ll have a div with the site name in the h1 and a paragraph with the Copyright, &copy gives us the copyright symbol. That was the firs grid item
+We’ll do a NAV tag with the ul and links to Home, Features and Docs and a Privacy policy but I didn’t want to create links that go nowhere.
+Final DIV as the grid item will be the Social. With font awesome the social media icons will be FAB abbreviation.
+Also, we added in to make the social media link anchor tags white and spaced out our social media icons with margin from left and right.
+
+ADDING MEDIA QUERIES TO MAKE THE PAGE RESPONSIVE
+
+Adding two separate media queries in our style.css. First one for tablets and under and the second one for mobile. For Tablets, anything under 768x will be styled here. For mobile we want to capture anything under 500px. For the menu that’s going to be fine on tablets even if there’s more items but for mobile we’ll change things up.
+
+In mobile Navbar height set to 110px, to put the menu items under the logo. Navbar we have a class flex, so it’s a row by default so we’ll set it to column with flex direction which will put the logo and the UL on top of each other. For the navbar UL we’ll add padding and a transparent background.
+
+Style all the grids first and I want to stack everything, so tablets and under. Instead of two and three columns I want everything in one column. Grid classes first! Setting the grid template columns to 1fr so it would take up the entire column and in the CLI area we have two rows so we’ll set the grid template rows to 1fr as well for it to take up only 1.
+
+Initially the showcase is 400 px and we’ll set the showcase height to auto so it would take up the entire space.  So to form wouldn’t be on the text. Showcase-text we’ll align to the center and we’ll push it down with the margin top for 40px.
+I want to move the showcase form to the middle and we’ll use the justify-self: center; to do that. We’ve used justify content a bunch so that’s going to be on a flexbox or a grid container.
+Justify-self we use on an actual grid or flex item to justify just that item. Margin to auto. Now the form’s in the middle.
+
+
 
 
 **Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
