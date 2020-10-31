@@ -1,7 +1,6 @@
-# 100 Days Of Code 2020-2021 - Log
+# 100 Days Of Code 2020-2021 - Log by Robert Parkala
 
 #Day 1: October 28, 2020
-
 
 **Today's Progress**: Started a new project, added HTML structure and css styling to navbar, showcase section and submit form.
 
@@ -47,7 +46,6 @@ Since we want to style the inputs that we created for the form but NOT the butto
 
 #Day 2: October 29, 2020
 
-
 **Today's Progress**: Today's main draw were fexbox and grid. Created the stats section, CLI section and bottom Cloud and Read more sectio.
 
 **Thoughts:** CREATING THE STATS AREA WITH GRID
@@ -92,7 +90,6 @@ Also, we currently had the one DIV and we’re going to be adding in a second DI
 
 #Day 3: October 30, 2020
 
-
 **Today's Progress**: Today I finished the supported languages and footer sections. Added social media links and media queries for both tabled and mobile.
 
 **Thoughts:**
@@ -124,6 +121,24 @@ Style all the grids first and I want to stack everything, so tablets and under. 
 Initially the showcase is 400 px and we’ll set the showcase height to auto so it would take up the entire space.  So to form wouldn’t be on the text. Showcase-text we’ll align to the center and we’ll push it down with the margin top for 40px.
 I want to move the showcase form to the middle and we’ll use the justify-self: center; to do that. We’ve used justify content a bunch so that’s going to be on a flexbox or a grid container.
 Justify-self we use on an actual grid or flex item to justify just that item. Margin to auto. Now the form’s in the middle.
+
+**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+#Day 4: October 31, 2020 Happy Halloween, boo!
+
+**Today's Progress**: Today got an early start and I thought that I’d first spend an hour or more on Stack Overflow answering some of my first questions ever. As far as coding today, I created the Features page, which is the second of the three pages that are going to be on it. Added the navbar, features heading, img and footer.
+
+**Thoughts:**
+
+CREATING THE FEATURES PAGE
+
+Created a new file features.html and copied all of the content from index.html and we’re keeping the nav bar, footer. Removed everything UP from Footer and until Showcase included.
+
+This page is not going to be as complex because we already have all the helper classes ready and most of the elements.
+
+Now, we’ve added the Head section  and a subsequent DIV, that also is styled with the container an now a grid attribute. We’re using the same bg-primary and py-3 classes to style our background and padding. Also, using the XL class for H1 and LEAD for our paragraph.
+We entered an image as our second grid item.
+Then we added the Features CSS for the picture and made it smaller and pushed it to the end of the container grid with justify-self: flex-end;
 
 
 
