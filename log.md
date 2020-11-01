@@ -42,11 +42,11 @@ SHOWCASE INPUTS
 
 Since we want to style the inputs that we created for the form but NOT the button itself we’ll create the style specification above and style the types TEXT and EMAIL thus targeting the values NAME, COMPANY NAME and EMAIL.
 
-**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
 #Day 2: October 29, 2020
 
-**Today's Progress**: Today's main draw were fexbox and grid. Created the stats section, CLI section and bottom Cloud and Read more sectio.
+**Today's Progress**: Today's main draw were flexbox and grid. Created the stats section, CLI section and bottom Cloud and Read more section.
 
 **Thoughts:** CREATING THE STATS AREA WITH GRID
 
@@ -85,8 +85,7 @@ Paragraphs are going to a bit bigger using the class lead.
 Now, adding in the button with the anchor tag and also the styling is going to come from the same btn class we used before but we’re going to use the btn-dark and style that.
 Also, we currently had the one DIV and we’re going to be adding in a second DIV as the image so we can take advantage of the two grid spaces we have witch are laid out with 1fr
 
-
-**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
 #Day 3: October 30, 2020
 
@@ -122,7 +121,7 @@ Initially the showcase is 400 px and we’ll set the showcase height to auto so 
 I want to move the showcase form to the middle and we’ll use the justify-self: center; to do that. We’ve used justify content a bunch so that’s going to be on a flexbox or a grid container.
 Justify-self we use on an actual grid or flex item to justify just that item. Margin to auto. Now the form’s in the middle.
 
-**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
 #Day 4: October 31, 2020 Happy Halloween, boo!
 
@@ -140,7 +139,27 @@ Now, we’ve added the Head section  and a subsequent DIV, that also is styled w
 We entered an image as our second grid item.
 Then we added the Features CSS for the picture and made it smaller and pushed it to the end of the container grid with justify-self: flex-end;
 
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
+#Day 4: October 31, 2020 Happy Halloween, boo!
 
+**Today's Progress**: Finished the Features page with subhead and subhead grid.
 
-**Link to work:** Check my GitHub, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+**Thoughts:**
+
+CREATING THE SUBHEAD AND SUBHEAD GRID
+
+Created the features sub head section and a new container grid. Added heading H1 with a class of medium and paragraph with some dummy text. Added a new image server 2.
+
+Modified CSS to push the subhead image to the container end and modified the width to be a bit bigger than the features server logo.
+
+We’re making a grid of cards but we’re also adding the FLEX because we want to align these items using flex.
+Adding an icon with Font Awesome and then we’ll add a paragraph and add lorem30 dummy text. Now we need 6 of those divs and just modify the icons with font awesome.
+
+We’re adding special styles so that the grids would not be sitting next to each other. So specifically, in the features main we’re targeting the icons and adding a margin to the right to push then away from the text a little bit.
+
+For the grid itself we’re going to do some spanning but before we’re going to set the grid-3 onto the div container class to give it 3 columns and add a bit of padding to the features main in CSS.
+
+Now, we want the firs grid element to take up (span) one row and span three columns. Also the second element to span one row and take up 2 columns. We can do that by addressing the first child in the grid and subsequently with the nth-child(2) we can address the second child. WOW, totally now stuff here!
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
