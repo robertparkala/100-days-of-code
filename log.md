@@ -2,7 +2,7 @@
 
 #Day 1: October 28, 2020
 
-**Today's Progress**: Started a new project, added HTML structure and css styling to navbar, showcase section and submit form.
+**Today's Progress**: Started a new project called Blue Origin Cloud Hosting, added HTML structure and css styling to navbar, showcase section and submit form.
 
 **Thoughts:** It's the first day of this challenge but I've been learning HTML and CSS for exactly a month now. I'm seeing progress in relations to understanding classes better when going through my HTML structure and am thinking in more complex terms when it comes to CSS. For example I feel more confident now with flexbox, grid and also relative and absolute positioning.
 
@@ -141,7 +141,7 @@ Then we added the Features CSS for the picture and made it smaller and pushed it
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
-#Day 4: October 31, 2020 Happy Halloween, boo!
+#Day 5: October 31, 2020 Happy Halloween, boo!
 
 **Today's Progress**: Finished the Features page with subhead and subhead grid.
 
@@ -161,5 +161,83 @@ We’re adding special styles so that the grids would not be sitting next to eac
 For the grid itself we’re going to do some spanning but before we’re going to set the grid-3 onto the div container class to give it 3 columns and add a bit of padding to the features main in CSS.
 
 Now, we want the firs grid element to take up (span) one row and span three columns. Also the second element to span one row and take up 2 columns. We can do that by addressing the first child in the grid and subsequently with the nth-child(2) we can address the second child. WOW, totally now stuff here!
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+#Day 6: October 31, 2020 Happy Halloween, boo!
+
+**Today's Progress**: Finished the Blue Origin Cloud Hosting Website, which is now responsive across platforms.
+
+**Thoughts:**
+
+CREATING THE DOCUMENTATION PAGE
+
+We copied the features page as a boiler for the docs.html and also changed the section class from features-head to docs-head.
+
+DOCUMENTATION MAIN
+
+The docs main is going to be a similar container grid class DIV that has second DIV with the card class in it. We’re adding a heading H3 and a navbar with an unordered list with list items and also a second heading with an H3 and a similar list.
+
+INTRODUCTION
+
+We create another DIV with the class card an since it’s housed in a div container grid then it’ll format into 2 columns of 1fr. Inside the card we have a heading h2 and a paragraph with an alert alert-success DIV that houses a font awesome icon. 
+
+LINKS AND LISTS 
+
+We added a heading in the card and a paragraph. Under the paragraph we created a link with an <a> tag. And set it up as a button Install CLI. Now, under the button we added the Requirements heading h3 and formulated those requirements into a unordered list. 
+Under the list we added another H3 and a Paragraph with a <pre><code> tag that allows us to add in the terminal code lines. Make sure to read more about this!
+
+We’ll add a margin to the docs main heading and we will also modify the docs-main .grid to take up 1fr for the first grid item and 2fr for the second grid item. 
+
+ALERT SUCCESS AND ERROR
+
+Now, we’re styling the Alert class and it’s similar to the Bootstrap alerts where you can see SUCCESS, DANGER etc. 
+
+We’re setting the alert class color to light color with the custom properties (variables)
+
+STYLING THE CODE IN <PRE> TAGS
+
+We’re making the pre tags look like they would be off of a real documentation page.
+
+STYLING THE PRIMARY COLOR OF LI ITEM
+
+We’re setting a text primary class to the Introduction LI item. Using the bg. background colors and btn colors and copying down but changing the background color to just color to make the Introduction blue. 
+
+MAKING THE INNER PAGES RESPONSIVE 
+
+We added the features main grid and the docs main grid to the 768x. Now the Features grid starts to stack up. Now we want to center  our images on both the features head, subhead and on the docs head. Now we’re working on the Features grid span and we’re targeting the grid’s first child and the nh-child(2)
+and setting the grid-columns to 1 so they would stack underneath each other.
+
+ANIMATIONS
+
+We’re creating animations in our style.css under Footer with @keyframes and adding slide-in’s to certain elements for right, left, top and bottom. We’re actually manipulating translate X and translate Y.
+
+We want it to start off screen and it will start negative 100% on the left with this keyframe.
+
+And end up in it’s normal position 0 at 100%
+
+Same thing for the slide in from the Right. Now it will start at positive 100% to the right and will return to its original position 0 at 100%
+We’re doing the same with Top and Bottom but remember that now we’re manipulating the Y axis and returning the element back to its position in the X axis. Super cool stuff here! 
+
+Slide in from the Left is going to go in the Showcase Text (which we need to create) and Slide in From Right will go on the showcase form. We specified the animation action from our keyframes, then the duration and what kind of movement. Now we want the STATS to come out the bottom.
+
+DEPLOYING TO NETLIFY
+
+Deploying to Netlify and creating a Git Repository there.
+
+ADDING THE FORM FUNCTION FROM NETLIFY
+
+So that our form would actually work on our home page. Adding this to our index.html
+
+ADDING THE SPAM FILTER
+
+Recaptcha or Honeypot. Recaptcha would mes up our layout bot we’re adding the honeypot so if you’re a bot you’ll fill it out and if you’re a human you wont. 
+
+Also we’re adding in the paragraph wit the hidden like so. This is going to hide the honeypot based on the hidden class. Also, we’re going to add CSS to style.css and hide the visibility and since it will still take up space, we’ll set the height to 0.
+
+NOW WE’RE SET TO DEPLOY
+
+Opening up our VSCode terminal with command + tilde (which is right under the escape button) and adding 
+git init. GitHub's got our repository. Now, we’re going to Netlify again and creating a new repository. Following the steps that are laid ouf by Netlify. Deployed at https://blue-origin-cloud-hosting.netlify.app/
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
