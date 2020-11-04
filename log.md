@@ -1,6 +1,10 @@
 # 100 Days Of Code 2020-2021 - Log by Robert Parkala
 
+
+
 #Day 1: October 28, 2020
+
+
 
 **Today's Progress**: Started a new project called Blue Origin Cloud Hosting, added HTML structure and css styling to navbar, showcase section and submit form.
 
@@ -44,7 +48,11 @@ Since we want to style the inputs that we created for the form but NOT the butto
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
+
+
 #Day 2: October 29, 2020
+
+
 
 **Today's Progress**: Today's main draw were flexbox and grid. Created the stats section, CLI section and bottom Cloud and Read more section.
 
@@ -87,7 +95,11 @@ Also, we currently had the one DIV and we’re going to be adding in a second DI
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
+
+
 #Day 3: October 30, 2020
+
+
 
 **Today's Progress**: Today I finished the supported languages and footer sections. Added social media links and media queries for both tabled and mobile.
 
@@ -123,7 +135,11 @@ Justify-self we use on an actual grid or flex item to justify just that item. Ma
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
+
+
 #Day 4: October 31, 2020 Happy Halloween, boo!
+
+
 
 **Today's Progress**: Today got an early start and I thought that I’d first spend an hour or more on Stack Overflow answering some of my first questions ever. As far as coding today, I created the Features page, which is the second of the three pages that are going to be on it. Added the navbar, features heading, img and footer.
 
@@ -141,7 +157,7 @@ Then we added the Features CSS for the picture and made it smaller and pushed it
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
-#Day 5: October 31, 2020 Happy Halloween, boo!
+#Day 5: November 1, 2020
 
 **Today's Progress**: Finished the Features page with subhead and subhead grid.
 
@@ -164,7 +180,11 @@ Now, we want the firs grid element to take up (span) one row and span three colu
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
-#Day 6: October 31, 2020 Happy Halloween, boo!
+
+
+#Day 6: November 2, 2020
+
+
 
 **Today's Progress**: Finished the Blue Origin Cloud Hosting Website, which is now responsive across platforms.
 
@@ -185,7 +205,7 @@ We create another DIV with the class card an since it’s housed in a div contai
 LINKS AND LISTS 
 
 We added a heading in the card and a paragraph. Under the paragraph we created a link with an <a> tag. And set it up as a button Install CLI. Now, under the button we added the Requirements heading h3 and formulated those requirements into a unordered list. 
-Under the list we added another H3 and a Paragraph with a <pre><code> tag that allows us to add in the terminal code lines. Make sure to read more about this!
+Under the list we added another H3 and a Paragraph with a pre code tag that allows us to add in the terminal code lines. Make sure to read more about this!
 
 We’ll add a margin to the docs main heading and we will also modify the docs-main .grid to take up 1fr for the first grid item and 2fr for the second grid item. 
 
@@ -195,7 +215,7 @@ Now, we’re styling the Alert class and it’s similar to the Bootstrap alerts 
 
 We’re setting the alert class color to light color with the custom properties (variables)
 
-STYLING THE CODE IN <PRE> TAGS
+STYLING THE CODE IN PRE TAGS
 
 We’re making the pre tags look like they would be off of a real documentation page.
 
@@ -239,5 +259,79 @@ NOW WE’RE SET TO DEPLOY
 
 Opening up our VSCode terminal with command + tilde (which is right under the escape button) and adding 
 git init. GitHub's got our repository. Now, we’re going to Netlify again and creating a new repository. Following the steps that are laid ouf by Netlify. Deployed at https://blue-origin-cloud-hosting.netlify.app/
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 7: November 3, 2020 
+
+
+
+**Today's Progress**: Started a new project, a product landing page for Audio-Phonics headphones
+
+**Thoughts:** 
+
+HTML and INTRO
+
+Creating a product landing page, for headphones, with lightbox gallery and submit form. Deploy it to Netlify.
+We’ll have a navbar, showcase area, dark overlay area and a photo gallery with grid and lightbox (simple lightbox). In the footer we’ll have menus, email subscribe form.
+
+Bringing on the css and js from lightbox. Using Google Font Catamaran.
+
+IMPLEMENTING AJAX GOOGLE APIS
+ADDING A jQUERY SCRIPT 
+
+Implemented the Ajax.googleapis.com so we could run the simple-lightbox.min.js file with our gallery and links.
+And the script function is a line of jQuery. jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+
+CREATING THE NAVBAR
+
+Created the navigation bar with hash links and added the id to body so when we click the home link.
+
+ASSIGNING ROOT COLORS
+
+CREATING OUR RESETS
+
+Box sizing to border  box, so that padding and boarders don’t ad width to the element. Zeroing out the margin and padding.
+
+BASE STYLES
+
+For the body we’re setting the font family, line height, color and font size.
+Headings will have a different line height.
+Links will have a custom properties color and a text decoration of none so there’s no underline.
+From the unordered list we take away the bullet points with list style set to none.
+For any image we have on this site we want it to take a 100Q% of the width of the container.
+
+CREATING THE CONTAINER CLASS AND GRID SYSTEM
+
+We’ll be creating the container class and we’re also going to use the grid system to align the logo on the left and the menu on the left. 
+
+For the container we’ll set the max width 1100px which is pretty common and margin auto so it gets put in the middle and here’s even margin from the left and right. 
+Overflow will be hidden because we don’t want anything breaking out of the container. 
+Padding will be set to 0 from top and bottom and 2rem from left and right.
+
+STYLING THE NAVBAR 
+
+We don’t want to display grid on the navbar class, because if we do that then the container is going to be the grid item but we want to display the H1 and the UL as our two grid items. Setting the display to grid for the navbar container and specifying the way the space will be laid out, 1fr and 1fr or repeat
+
+SHOWCASE AREA
+
+We’re going to us a section and give it a class of section-a and have a DIV with a container underneath to push everything in the middle just like with the navbar. Another DIV with H1 and Paragraph and an anchor link with a button class underneath. 
+Under the DIV we’ll have an image showcase.jpg
+
+MAKING THE GRID LAYOUT
+
+We want to display the grid on the container not on the section-a because when we do it on section-a the container will be the only grid item but we want two.
+Now were’ creating a section-a separately because we want to add some margin top and bottom. We could also create some utility classes for margin, padding if we’d want like we did with the previous project but we’re keeping it simple.
+
+On the container we’ll set the display to grid and grid template-columns to repeat 2 1f
+Creating a small grid gap and now with align-items and justify-content set to center we’ll center everything 
+
+Also, we added a bit of margin to the navbar because the photo of th headphones is touching too close to the Home and About.
+
+We added a font-size to the section-a H1 and a color from the custom properties.
+And section-a paragraph git a margin top of 1rem to help spread it out a bit more and a fon-size of 1.2 rem to help the text be more evenly distributed.
+
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
