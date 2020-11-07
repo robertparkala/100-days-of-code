@@ -458,4 +458,6 @@ Am I closer to being content, definitely but I just need to get the page working
 
 **Thoughts:** 
 
+Found the fix for the footer email form. I added a class to the form tag and styled in CSS with display flex and flex-direction column. It worked in placing the email form at the bottom of the footer in Netlify.
+
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
