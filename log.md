@@ -461,3 +461,47 @@ Am I closer to being content, definitely but I just need to get the page working
 Found the fix for the footer email form. I added a class to the form tag and styled in CSS with display flex and flex-direction column. It worked in placing the email form at the bottom of the footer in Netlify.
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 12: November 8, 2020 
+
+
+
+**Today's Progress**: Started a new project, Satellite Web Development Grid page
+
+**Thoughts:** 
+
+INTRO
+
+Making a responsive grid CSS website, CSS theme. Fundamentals of grid in a real project. One great resource is the Wes Bos’s course. Using CSS variables, rem units. Sections, fractional. Grid template areas using named template areas, SVG icons. Fractional columns. Fully responsive.
+
+HTML and BASE
+
+Copied Font Awesome with SVG with JS. Everything’s going to be wrapped inside of a wrapper. 
+
+CREATING THE NAVBAR
+
+CREATING THE TOP CONTAINER
+
+Showcase and Top box A and B.
+
+The header element represents a container for introductory content or a set of navigational links.
+We’re doing a section with a class of top container and inside we’ll have a a header with a class of showcase. Showcase is going to have an h1 and a paragraph with lorem 15. Also an a tag with a class of btn which will be a custom button Read More, so we can make our links look like buttons.
+
+Now, still withing the top container section we’re going to do the first top box, so it’s going to be a class of top-box and another class of top-box-a in the same div. Inside here, we’ll have an h4 and a paragraph and an a tag with a class of btn. We’ll have two of these divs and we’ll change the second one to top-box top-box-b. That’s it for the top container.
+
+CREATING THE BOXES SECTION
+
+We’re going to use a section tag with a class of boxes and each box will have a class of box. In each of these we’ll have an icon and we’re getting them from Font Awesome and adding fa-4x to make the icon bigger.
+Under the icon we’ll have an H3 with analytics and then a paragraph with lorem 10. Now we need four of these boxes so we’re coping the whole box div and past it down. We’re changing up the icons, second one will be a globe icon with the heading Marketing, third one will be a cog icon with the heading Development and the last icon will be users with a heading of Support. Paragraph text stays the same at the moment.
+
+
+CREATING THE INFO SECTION
+
+We’re creating a class with section info section and inside well put our image. Image is going to be in the img folder. Underneath that we’ll have a div and inside the div we’ll have an h2 then a paragraph and then an a tag wit the class of btn for a button Learn More.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
