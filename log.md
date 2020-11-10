@@ -505,3 +505,50 @@ We’re creating a class with section info section and inside well put our image
 
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 13: November 9, 2020 
+
+
+
+**Today's Progress**: Started a new project, Satellite Web Development Grid page
+
+**Thoughts:** 
+
+CREATING THE PORTFOLIO
+
+We’re adding another section called portfolio and now what we can do is add random images from UNSPLASH with the unslplash.com/random URL and a specified size of 200x200 for example. Now that will give us all of the same pictures but if we want to get every photo to be different we just need to change one pixel for example 201, 202 etc. Now that won’t matter for the gird because the images are contained within the container – within their parents. Also, decided to not use random images, since I want my page to look more custom.
+
+CREATING THE FOOTER
+
+Now, we’re creating a simple footer and adding a footer tag that houses a paragraph and an ampersand copy to get us the copyright symbol.
+
+BASE STYLING WITH CSS
+
+CREATING CSS VARIABLES
+
+Using CSS variables as in custom properties for our primary, dark, light and shadow color. Now, the rgba consists of 4 values first being red, second green, third blue and the last being alpha which is the opacity. We can use these throughout our CSS. 
+
+BASE  STYLING HTML AND BODY
+
+Box-sizing will be set to border box, that will make it so that if we use any padding or anything, it doesn’t affect the width of the element. Font family will be set to Arial, Helvetica, sans-serif and base color will come from the CSS variable of dark color.
+
+Body will have a background of #ccc, that’s not going in the variable because that’s the only time we’re using this. We’re using a container for the wrapper, I want it to be full width but I do want to have a bit of margin on both sides. And the line height will be 1.4
+
+BASE STYLING THE BUTTON
+
+We’re using the btn class to style the button and using a background color of variable dark. Color refers to the text color so we’ll set that to light. With the padding we’re establishing 0.6em from top and bottom and 1.3rem from right and left. Text decoration will be set to 0 as that will remove our underline. Border will be 0 since we don’t want to add that. 
+
+STYLING THE NAVBAR
+
+We’re styling the main-nav and we want to style the ul. Display is set to grid like most things on this page. Grid gap is going to be 20px, padding to 0. By default UL’s have padding. We don’t want any bullets so we’re setting the list style to none. Grid template columns will be set to repeat 4, 1fr because we have 4 links.
+
+We want to style each individual link so we’re going to capture the main nav a tag and setting the background to primary color. Display will be set to block and text decoration to none. We’ll set some padding and make text align to the center. Color of the text will be set to dark color and text-transform the letters to uppercase.
+Font-size will be increased to 1.1 rem and we’re also creating the box shadow with the shadow color variable. 
+
+We’re also setting the hover state with the dark color variable and the text will be light color variable.
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
