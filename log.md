@@ -512,7 +512,7 @@ We’re creating a class with section info section and inside well put our image
 
 
 
-**Today's Progress**: Started a new project, Satellite Web Development Grid page
+**Today's Progress**: Creating the portfolio section and the footer. Also, creating CSS variables applying base styles to HTML, BODY and styling the navbar.
 
 **Thoughts:** 
 
@@ -548,6 +548,69 @@ We want to style each individual link so we’re going to capture the main nav a
 Font-size will be increased to 1.1 rem and we’re also creating the box shadow with the shadow color variable. 
 
 We’re also setting the hover state with the dark color variable and the text will be light color variable.
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 14: November 10, 2020 
+
+
+
+**Today's Progress**: Page is finished when it come to layout but I still need to add media queries. Today was a busy day with styling the top container area, making the grid layouts for both showcase, info sections and gallery. Footer now has social media links as well.
+
+**Thoughts:** 
+
+STYLING TOP CONTAINER
+
+Displaying the top container with grid and a grid-gap of 20px. This is where we’re going to to our grid template areas. 
+What the 
+
+showcase showcase top box a
+showcase showcase top box b means is that if we look at the yellow overlay, we see that we can format the grid template areas as our text is placed. Showcase taking up two columns and two rows. Top-box a and b are taking up one column each. 
+Grid system is two dimensional unlike Flexbox which is just one dimensional. We can use grid template areas just as that, templates for our grid system and we can see how our grid is going to look in our CSS.
+
+
+ADDING GRID AREA TO SHOWCASE
+
+Now, we’re assigning the grid area to showcase because if we don’t do it, it doesn’t know what this means Showcase so we’re assigning it here. Also, we’re assigning the top box a and top box b matching grid areas so the grid would know where to place them. Now we just need to add separate styling to each grid.
+
+We’re adding a background image one folder up in the img and showcase.jpg. Background size is set to cover. Cover means Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges. Also, background-position will be set to center.
+
+
+STYLING SHOWCASE
+
+One misconception is that if you’re using grid you can’t use flexbox at all. But we’re going to use flexbox for the showcase text. Grid is good for the site layout, boxes, areas, UI of the application and then flexbox to align things inside of those elements.
+
+We’re setting the align items to flex-start and justify content to center. That will bring the text down and center. Also, we’re giving the container a box-shadow with our custom properties.
+
+Showcase heading h1 will get a font-size of 4rem and a margin bottom of 0 to bring it closer to the paragraph.
+Also a color of variable light so it would stand out.
+
+
+STYLING TOP BOX
+
+We’re styling the top-box separately, setting the display to grid, aligning and justifying items to the center and also applying a box shadow.
+
+
+STYLING BOXES SECTION
+
+For grid template columns we’re using repeat autofit with the minmax function that comes with the grid and inside there we’ll say we want a minimum on 200px, 1fr. If we now make the window smaller it will actually go on the next line. We don’t have to specify template columns for each media query for each size.
+
+
+Additionally we’re styling the separate boxes which will a background of our var primary with text align to center, padding and box shadow.
+
+STYLING INFO SECTION
+
+The info section got a background color of var primary and we used grid template columns to repat 2 grids of equal 1fr since there’s two grid items.
+
+
+STYLING PORTFOLIO
+
+We are setting the display to grid and adding a grid gap. Doing the same with grid template columns as with the boxes section. Using autofit and minmax.
+
 
 
 
