@@ -615,3 +615,28 @@ We are setting the display to grid and adding a grid gap. Doing the same with gr
 
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 15: November 11, 2020 
+
+
+
+**Today's Progress**: Finished off the page with medai queries and adding an additional information section.
+
+**Thoughts:** 
+
+MEDIA QUERIES
+
+We’re modifying the grid template areas for 768px by saying that showcase is takin up two columns and top box and be are on another row and also taking up two columns.
+
+Now, we’re modifying the navbar ul list and although it looks great it will look better all stacked in one columns again.
+
+The grid template areas layout will be as follows with 
+showcase
+top box a 
+top box b
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
