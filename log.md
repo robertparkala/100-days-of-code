@@ -640,3 +640,66 @@ top box b
 
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 16: November 12, 2020 
+
+
+
+**Today's Progress**: Started working on updating my Space X tribute page that I submitted before to freeCodeCamp
+
+**Thoughts:** 
+
+Instead of taking on a new learning process with a unfamiliar project, I went back and started overhauling the tribute page that finished and submitted to freeCodeCamp. It has been bugging me a while now and I scrapped the whole page and started fresh. 
+
+I knew it was going to be about Space X because the Dragon 2 Demo mission (watched the whole 32 hours of live feed!) was such an inspiration when it comes to human exploration, pushing beyond and taking on new challenges that I felt it resonated with how I felt and feel in my personal life as well. 
+
+Hence taking on the journey of becoming a software developer! I tried to utilize what I have learned so far but also tried something new with Semantic UI that I have not done before.  
+
+I started off with a wireframe of the page and how I wanted it to look. Inspiration for this comes from Space X's homepage.
+
+In HTML I finished the navbar area and currently there’s just a big showcase photo right below it, also a the top section below the showcase. That wasn’t a lot for today but I feel like I spent a good amount of time just figuring out how I wanted the page to look. It’s starting to take shape and I feel like I have an idea how it’s going to turn out.
+
+CSS is just starting to take shape as well and pretty much used the same techniques I have in previous projects. Also I want to incorporate an element into my page that comes from Semantic UI and thus I have to use a CDN but all it means is I’ll be using some css that’s pre-built. I’m not sure if this is ideal but I’d like to try it out and see how it feels. For example I haven’t touched Bootstrap or Tailwind at all yet learning and implementation wise and I know they make building stuff easier but I also want to learn to do it myself so that’s why I’m a little skeptical as to how Semantic’s going to look.
+
+
+NAVBAR
+
+Navbar has a logo on the left and added three menu items to the grid.
+
+SHOWCASE PHOTO
+
+Added a showcase photo and will create buttons later on so it will draw more attention to Reading More.
+  
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 17: November 13, 2020 
+
+
+
+**Today's Progress**: Continuing with revamping the Space X Tribute Page and added a quote section, timeline section and facilities.
+
+**Thoughts:** 
+
+I have a better idea of what I want to achieve with the Space X Tribute Page I’m revamping. It’s looking much different now than it did this morning and that’s a good thing. 
+
+I’m trying to give it that Space X look while also being a bit different and let’s face it, their page is super high tech for me to go and replicate it one on one right now, so I’m trying my own version but incorporating certain images and elements they use. Also, I think the background colour needs to be black so that would really pull things together and maybe I’ll grab their logo instead of just writing it out. 
+
+With HTML I added a quote section which gives the page a nice touch and as your scrolling you’re greeted with quotes from Elon and it’s hopefully a bit inspiring and makes visitors stop and read. But I already know that I’m going to structure and write it out different in CSS. 
+
+Originally that quote structure comes from Semantic UI which is just easy to use but really it’s just bunch of h1 in a div with a display:block; so I’ll just write it out and use my own classes instead of theirs. The timeline section is a bit trickier and currently as it stands I’m using Semantic UI’s HTML with their pre-built CSS but I’ll see what I can come up with and probably will reverse engineer it as well so there’s the added bonus of a learning curve instead of just using their structures.
+
+
+With CSS as I said for certain parts I planned on using Semantic UI’s pre-built style but I want to reverse engineer it so I would actually know how to build a timeline section like that. I mean, sure it’s just CSS but another thing is actually understanding how it works and what it creates. 
+
+So, I’d like to do that and will probably spend a good few hours or a day just staring at the screen but I also enjoy that part so all is well. 
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
