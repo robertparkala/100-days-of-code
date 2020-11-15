@@ -703,3 +703,38 @@ So, I’d like to do that and will probably spend a good few hours or a day just
 
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 18: November 14, 2020 
+
+
+
+**Today's Progress**: Added a new color palette to the body, timeline- and footer sections.
+
+**Thoughts:** 
+
+NAVBAR
+
+Changed the navbr links color and hover color.
+
+SHOWCASE
+
+Added a button to the showcase photo.
+
+TIMELINE
+
+Modified the color palette of the whole timeline section.
+
+FACILITIES
+
+Updated facilities section with additional elements.
+
+FOOTER
+
+Modified the color of the footer section.
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
