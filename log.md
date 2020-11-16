@@ -738,3 +738,35 @@ Modified the color of the footer section.
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
+
+
+#Day 19: November 15, 2020 
+
+
+
+**Today's Progress**: Finished the Space X Tribute Page revamp and moving on to an e-commerce project. 
+
+**Thoughts:** 
+
+I decided to change the layout of the page so that there's a facilities section in the end and then the footer otherwise on mobile the page would have been too long. I added some animations to the navbar, showcase button and also made everything responsive on web, tablet and mobile.
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 20: November 16, 2020 
+
+
+
+**Today's Progress**: Started a new project and this one will be an e-commerce website.
+
+**Thoughts:** 
+
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
