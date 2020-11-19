@@ -760,13 +760,125 @@ I decided to change the layout of the page so that there's a facilities section 
 
 
 
-**Today's Progress**: Started a new project and this one will be an e-commerce website.
+**Today's Progress**: Started a new project and this one will be an e-commerce website called The South Face.
 
 **Thoughts:** 
 
+Complete e-commerce store which is fully responsive. Nav menu with Home, Products, About, Contacts and Account. Different products for Features and Exclusive Products, Testimonials and Popular brands section and a Footer area with four columns.
+
+Products page featuring products, dropdown option for sorting and page numbers at the bottom of the products. Clicking on the product will lead to a product details page and we also have Related Products. Adding products to car will act as a full cart solution. The account page features a login and register form.
+
+HTML and SETUP
+
+Using border box and setting the margin and padding to 0 and this will be applicable for all of the HTML elements.
+
+NAVBAR AND LOGO
+
+We’re creating a navbar with UL and LI tags that feature our five inner pages.
+Adding display flex because we want to work with flexbox and aligning items to the center with 20px padding for the navbar container.
+We’re styling the nav tag contents now and assigning flex 1 so it would take up one space in the flexbox grid.
+Now we want to style the navbar UL and LI items further 
+We’re removing the text decoration and changing the color of the anchor a tags
+Also, we’re setting the paragraph color the same as our anchor tags so if we write any content it will appear the same.
+We added the whole navbar element to its separate container and styling that container with max-width so it will not go more than that, we’ll add margin so it will be in the center and some padding from left and right side.
+
+SHOWCASE AND IMAGE
+
+We’re adding a new with a class of row which will be our tagline for the homepage. See that by adding a line break with br we’re setting the two sentences apart although they are a part of the same h1.
+Now we’re adding the paragraph and using the same line break to style our paragraph a bit better because some of the text would be so long in one row.
+We will use the row class to display our items flex and align-items to the center.
+Next up we have the img and we’re setting it to occupy 100% of the area and also padding so there’s a bit space from top and bottom and 0 from left and right. Next we’ll style the col-2 h1 and increase the font size and, line height to space things out and margin from top and bottom to give it some space. 
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+#Day 21: November 17, 2020 
+
+
+
+**Today's Progress**: Finished the showcae area and created the featured category items
+
+**Thoughts:** 
+
+ADDING THE BUTTON
+Created a button for the front page and styled to match the logo sow it draws attention.
+HEADER BACKGROUND COLOR
+Adding the background color to the header and will modify the image transparent sw we can change the background color.
+FONT FAMILY
+We we’re adding the font family to the body from Google Fonts.
+We’re adding some more margin for the row class.
+FEATURED CATEGORY
+Creating a new div with the class name categories and we’ll add a class row which we have already created. And we are using col-3 for our three columns and adding our images which are all the same size.
+We’re adding some margin 40px from top and bottom and 0 from left and right. With col-3 we are adding flex-basis 30% so that all of the columns would occupy 30% of the space. We’re adding min-width to the images to specify a minimum width. Width 100%
+SMALL CONTAINER
+Now we’re creating a small container and housing our images in there so we could style it further.
+We’re setting the max-width and also setting the margin to center the elements. Padding is applied from the right and left.
 
 
 
 
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 22: November 18, 2020 
+
+
+
+**Today's Progress**: Finished the featured products section and added ratings and hover effect
+
+**Thoughts:** 
+
+FEATURED PRODUCTS
+We’re adding the same small container to our Featured Products section and applying the row class that we already have styled in CSS.
+Now, we’re styling the area similar to featured and with adding the flex basis 25% to the section because we want 4 images side by side and then specifying the width 100% on the image we’re fitting out products in nicely into the 25% area in their separate containers.
+See how adding the width 100% takes up the 100% the width of the 25% container.
+ADDING RATINGS
+and now we’re adding the start icons using the font awesome’s icon links.
+Now similarly to the first image, we’re adding rest of the 3 images.
+We added a text-align on the title and formatted with margin, position set to relative and also added some line-height.
+We used the ::after function to add a line after the featured products and that gives us a nice line after the Featured Products title with a width, height and border radius
+Transform translateX helps us to place the line under our title.
+We’re changing the font weight of the product titles and also added letter spacing to push everything onto two rows so the middle two photos would not drop down creating an uneven look.
+Also, we’re decreasing the font size for the p tag which is the price.
+Changed the rating icons color by adding a ratings class and then font awesome fas and far icon classes and styling them to be var third color.
+Now, we want to add a hover effect to the pictures so were’ doing transition transform for 0,5s on all of the col-4’s and then adding a separate hover to col-4 a well. 
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 23: November 19, 2020 
+
+
+
+**Today's Progress**: Finished the You may also like section, added new arrival area and testimonials
+
+**Thoughts:** 
+
+YOU MAY ALSO LIKE SECTION
+You may also like section was identical to the Featured products but the product names, reviws
+NEW ARRIVAL SECTION
+Also added a Buy Now button which is similarly styled as the 
+TESTIMONIALS
+I reused the small-container class and also row and col-3 to add in different content. Next, we’re adding in the quote icon, paragraph with the testimonial text, and then the ratings section. After that there’s an image and then a name with the h3.
+Now we just populated the and made three extra reviews
+We’re adding some padding to the top to space it out. Also, we’re moving the text to the middle and adding some more padding but now on the col-3 and with the col-3 image we are setting the width of the image to make it smaller, adding some padding and also adding a border radius to make the pictures rounded to look like modern testimonial pictures.
+Now, we’re adding a box-shadow to the col-3 to raise the columns and create a 3d effect.
+We’re increasing the font-size of the quotation marks and also the color.
+With making the font-size smaller we’re also creating a more compact look. Adding some margin from top and bottom spaces out the text evenly. And a primary color makes the text stand out more.
+Now, finally for this section we’re changing the font-weight and color and also the font-size.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
 
