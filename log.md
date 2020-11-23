@@ -881,4 +881,75 @@ Now, finally for this section we’re changing the font-weight and color and als
 
 
 
+Day 24: November 20, 2020 
+
+
+
+**Today's Progress**: Added the Brand and Footer sections
+
+**Thoughts:** 
+
+BRANDS
+Created a new div with brands that are images housed in a small container and a row class. Added five brands names.
+
+Also, added a margin from top and bottom and left and right to center it. Assigned a width to the col-5 so the images would take up that space with 100% when added to the img. Also, a cool feature is the grayscale 100% and that really fit on the images because it makes the colors appear on hover when assigned back to 0.
+
+FOOTER
+
+We added the footer class and we’re reusing the container class and the row class. The Useful links and Follow Us is made up of UL and LI tags.
+
+With the footer we’re setting the background color to black and text color to white. For the footer col-1 we’re setting the flex basis to take up 30% of the space. For col-2, we’re assigning 1 area and for col-3 and 4 we’re assigning flex-basis 12%
+
+Finally, added the app logos and styled them with width 140px so they wouldn’t be that big.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 25: November 21, 2020 
+
+
+
+**Today's Progress**: Added menu icon to mobile view and a toggle button with a JS function.
+
+**Thoughts:** 
+
+MENU ICON AND TOGGLE BUTTON
+Added a menu icon and media queries to make the menu items not appear when screen width is lover than 800px.
+
+What this JS variable means is that we are targeting the id MenuItems ID with the getElementId. With the style.maxHeight we’re telling the DOM to make the menu 0px high  and with the function we’re saying that if the menuitems are 0px then onclick return a value of 200px for the menu items and and else the item height is 0px.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 26: November 22, 2020 
+
+
+
+**Today's Progress**: Finished the All Products page
+
+**Thoughts:** 
+
+CREATING THE PRODUCTS PAGE
+With the products page we deleted You May Also Like section, brands and new arrival and the header class to remove the gradient as well from the navbar. Everything else is the same, navbar, featured products, footer and JS script.
+
+Removed the title Featured Products so we just have the four products.
+
+Added a row-2 class to the all products section that houses the select and option tags. Now, in CSS I added justify content space between to the row to push the select options to the right and added a margin 100px from top , auto from right and left and 50px bottom and some extra padding.
+
+Now we added all of the 12 products and we did that by coping the product row with 8 products from index.html and added the page btn at the bottom of the page with span.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
 
