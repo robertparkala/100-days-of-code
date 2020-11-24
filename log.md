@@ -953,3 +953,54 @@ Now we added all of the 12 products and we did that by coping the product row wi
 
 
 
+Day 27: November 23, 2020 
+
+
+
+**Today's Progress**: Started the product details pagem added image media and styled the headings, button and inputs.
+
+**Thoughts:** 
+
+PRODUCT DETAILS PAGE
+We copied most of the information from the products page and now we added the single product container before the other four products.
+Added the sizing options and also a quantity option.
+Now we added the button Add To Cart with the a tag and the class name btn
+We’re now adding the product details with h3 representing the heading and the p tag representing the information.
+We styled the individual products container first then the image and then all of the separate elements from h1, h4 to the select tag and input. Also, the icon and focus for the input.
+ADDING MORE IMAGES
+We’re adding all of the images for the small-img-col
+I changed images to get a better fit for the page. Also, the smaller images got a display of flex and a flex-basis of 24% to fit better.
+ADDING ONCLICK TO SMALLER IMAGES
+We added an ID to the first image and then class names to smaller images
+Now the JS part was a bit complicated. We’re calling on the product image to get element ProductImg and also calling with the variable SmallImg to get element by class name small-img
+
+When we click on the small image 0 the function says that we are displaying on the product img source the small image 0 source and so on. 
+
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 28: November 24, 2020 
+
+
+
+**Today's Progress**: Finished the media queries for product details page and started with the cart page.
+
+**Thoughts:** 
+
+MEDIA QUERIES FOR TABLET AND MOBILE
+Finished the queies for both viewports.
+
+CART
+Creating a table with tr as table row, th as table head. Another tr with td as table data. As we can see the table head is the header titles of the table and now we proceed to add a new info in another tr as in table row with table data so we’re adding a div that contains an image and another div inside that one that contains a p tag and a small tag.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
