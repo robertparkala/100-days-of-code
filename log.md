@@ -1004,3 +1004,77 @@ Creating a table with tr as table row, th as table head. Another tr with td as t
 **Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
 
 
+
+Day 29: November 25, 2020 
+
+
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 30: November 26, 2020 
+
+
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 31: November 27, 2020 
+
+
+
+**Today's Progress**: Started the About and Contant pages
+
+**Thoughts:** 
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 32: November 28, 2020 
+
+
+
+**Today's Progress**: Started the High-Altitude Outdoors Product Landing Page
+
+**Thoughts:** 
+
+HTML BASICS
+DAY 1
+
+Added the google font Roboto from fonts.google.com. Added the page title
+
+HERO SECTION
+
+With the header area with hero class, we’re adding a header section with div container. In the container we have a main-text area with an h1 and a p tag and a link with a class button.
+
+SPOTLIGHT SECTION
+
+Inside the main area and it’s always good to have a main area because of semantic HTML. We have a div section called spotlight and inside there a div container to hold the content and keep it from stretching too far, that has a h2 title and a div columns area. Now with the spotlight area we have 3 items and each of the product item sections consists of a link tag, image and a p tag.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
