@@ -1039,7 +1039,7 @@ Day 31: November 27, 2020
 
 
 
-**Today's Progress**: Started the About and Contant pages
+**Today's Progress**: Started the About and Contact pages
 
 **Thoughts:** 
 
