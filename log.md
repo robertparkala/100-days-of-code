@@ -957,7 +957,7 @@ Day 27: November 23, 2020
 
 
 
-**Today's Progress**: Started the product details pagem added image media and styled the headings, button and inputs.
+**Today's Progress**: Started the product details page, added image media and styled the headings, button and inputs.
 
 **Thoughts:** 
 
