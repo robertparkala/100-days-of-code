@@ -1009,7 +1009,14 @@ Day 29: November 25, 2020
 
 
 
-**Today's Progress**: 
+**Today's Progress**: Added more items to the Cart page
+
+ADDING MORE CART ITEMS
+Added more tr, td elements and changed image, price and total.
+We added the total price and used  the display flex to justify everything to the end of the container. Now we just need to align the total prices.
+Aligned everything to the right.
+And also moved everything a bit more to the left so the subtotal would be under the quantity.
+
 
 **Thoughts:** 
 
@@ -1024,9 +1031,34 @@ Day 30: November 26, 2020
 
 
 
-**Today's Progress**: 
+**Today's Progress**: Worked on the Account page
 
 **Thoughts:** 
+
+ACCOUNT PAGE
+I started the cart page but before I fully do that I also added links to navbar and connected all of the pages. Connected product details pages to the actual product on click and added paths to shop now and buy now and connected the shopping cart on all pages.
+We added an image in there and now it’s in the center because we have not created a second column. We also styled the background to be radial with some padding.
+Now, we’re creating the form container and adding a width and height.
+Now as we can see the margin auto centers the form-container in the middle of the 50% row, because it divides the leftover space equally. Some padding from top and bottom and also position relative to allow more flexibility.
+We’re adding the  span for Login and Register
+An input field with text and a placeholder of username
+We’re adding another input field with a placeholder of Password and a button with submit and a text login
+Now we duplicated the form and changed the information for the second form.
+Also, we removed the forgot password and now the form is complete.
+We positioned the form inside the form container absolute so we would have more freedom to move them both.
+Now we’re styling the form inputs and setting a width and a height to them.
+Adding some margin and padding, also modifying the border for the inputs.
+Now, this is how they both look if we remove the position absolute.
+With the from button we are changing the width and also setting the border to none and also adding some margin.
+ADDING JS TO LOGIN FORM
+Added id’s to both forms so that we can submit the var and call functions in JS.
+Also added the id of Indicator to the hr tag.
+Styled the login form the be left -300px and registration form to be 0.
+Width the indicator we set the width to a 100px and border to none and styled it with background, height, margin and transform properties.
+With JS, I initially connected the Login form and RegistrationForm.
+Added JS to Indicator as well.
+Modified the form container to have overflow hidden so the forms would be under each other.
+
 
 
 
@@ -1042,6 +1074,19 @@ Day 31: November 27, 2020
 **Today's Progress**: Started the About and Contact pages
 
 **Thoughts:** 
+
+ABOUT PAGE
+With the About page I’m basing this off basing this off of the North Face’s About page. Added a div with a showcase and an h1 title and an image. Then under the image I wanted to add a paragraph.
+I based the about container off the main container. With the h1 title I used position absolute and then styled accordingly. Hid the overflow on the showcase and with the paragraph I just styled it in the center.
+With the About Info section I wanted to add six images and style it similar to the North Face’s page with a heading and a button under each image.
+I used the flex property to make the tiled look. Styled the image with width 100% and a bit of margin.
+CONTACT PAGE
+With the contact page I made it look similar to the North Face’s contact page and that meant adding the side panel section with links to useful information a COVID information section and an email us form.
+Used a standard container and added an UL list with LI items to make the sidebar.
+With the covid info I added a separate divider and then paragraphs.
+I used grid to work with contact info sections.
+With the form I used a standard form tag and added labels and inputs.
+
 
 
 
@@ -1070,6 +1115,37 @@ With the header area with hero class, we’re adding a header section with div c
 SPOTLIGHT SECTION
 
 Inside the main area and it’s always good to have a main area because of semantic HTML. We have a div section called spotlight and inside there a div container to hold the content and keep it from stretching too far, that has a h2 title and a div columns area. Now with the spotlight area we have 3 items and each of the product item sections consists of a link tag, image and a p tag.
+
+
+
+
+**Link to work:** Check my GitHub @robertparkala, Twitter @thelunarcoder and Instagram @thelunarcoder ! Everything's active :)
+
+
+
+Day 33: November 29, 2020 
+
+
+
+**Today's Progress**: Worked on the Our Product section added further resets and styled the container, button and hero title
+
+**Thoughts:** 
+
+OUR PRODUCTS SECTION
+We’re adding the our-products section with a div container and we’re adding articles that are more so self-contained pieces of information on a page and it could link to another full page that could have an article on it for example. We’re adding the class of product and adding modifier classes later and each  class will have its own title, paragraph and a link.
+FURTHER RESETS
+We’re using a different font family, also adding a different line height and with the images we’re applying the max-width and a display block.
+And we’re also setting the margin to 0 regarding h1, h2, h3, p.
+STYLING THE CONTAINER
+Now with the mobile first approach things will be a little different but regardless we’re setting the width to 85% so that prevents things from touching the sides. But you could do this with padding instead as well.
+Also, we’re adding the max-width 1040px and could be the same in em’s as in 65em that means 65x16px means 1040px.
+STYLING THE BUTTON
+Now, we’re adding the display: inline-block because otherwise the padding would overlap with the preceding paragraph text. Also, because anchors are default inline and we can add a margin to it as well.  
+Also, we’re adding a hover and focus properties so that the button will scale larger, have a slight opacity and a transition effect.
+HERO TITLE
+Now, we can see that with the clamp() the title is shrinking a little, caps out at one point even though my screen is getting bigger. So, the smallest it can be is 3rem, the largest it can be is 4.5rem and in between it is going to grow at the rate of 5vw + 1rem. It’s a nice way to handle some responsive typography. 
+With the hero title, we’re adding in text-transformation uppercase and with the hero section we’re placing the text in the center, giving it a lot of padding. We’re placing a big background image there with a radial gradient and a backup background color of 222.
+
 
 
 
